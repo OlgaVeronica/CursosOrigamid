@@ -34,6 +34,9 @@ var total2 = (20 + 5) * 2; // 50
 var total3 = 20 / 2 * 5; // 50
 var total4 = 10 + 10 * 2 + 20 / 2; // 40
 
+var soma1 = (10+10) + 20 + 30 * 4 / (2 + 10);
+console.log(soma1);
+
 // OPERADORES ARITMÉTICOS UNÁRIOS
 var incremento = 5;
 console.log(incremento++); // 5
@@ -42,6 +45,16 @@ var incremento2 = 5;
 console.log(++incremento2); // 6
 console.log(incremento2); // 6
 //Mesma coisa para o decremento --x
+
+
+var x = 5;
+console.log(x--);
+console.log(x);
+ 
+var idade = +'18';
+console.log(typeof idade);
+
+var somaIdade = -5.
 
 
 
