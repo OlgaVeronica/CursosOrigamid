@@ -11,6 +11,8 @@ if(href === 'http://127.0.0.1:5500/JavaScript%20Completo%20ES6/Modulo%203/0301%2
 const h1selecionado = document.querySelector('h1')
 const h1Classes = h1selecionado.classList
 
-h1selecionado.addEventListener('click', function(){
+function callbackh1(){
     console.log('clicou em', h1selecionado.innerText)
-})
+}
+
+h1selecionado.addEventListener('click', callbackh1)
