@@ -22,7 +22,7 @@ console.log(
     window.innerHeight,
     window.outerWidth,
     window.outerHeight,
-    window.pageYOffset,
+    window.pageYOffset
 )
 
 const small = window.matchMedia('(max-width: 600px)').matches
